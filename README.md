@@ -23,6 +23,6 @@ bring  ... cp /usr/local/bin/$1 .
 cx     ... chmod +x $@ 
 ```
 
-# author
+## author
 
 Kei Sugano tobasojyo@gmail.cim
