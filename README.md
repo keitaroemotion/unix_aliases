@@ -23,3 +23,7 @@ cx     ... chmod +x $@
 ## author
 
 Kei Sugano tobasojyo@gmail.cim
+
+## Special Thanks
+
+Curt J. Sampson
