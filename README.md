@@ -24,6 +24,7 @@ cx     ... chmod +x $@
 
 Kei Sugano tobasojyo@gmail.cim
 
-## Special Thanks
+
+## special thanks
 
 Curt J. Sampson
