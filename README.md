@@ -18,6 +18,8 @@ rid    ... git rebase -i develop
 rebase ... git rebase $@
 bring  ... cp /usr/local/bin/$1 .
 cx     ... chmod +x $@ 
+amend  ... git commit --amend
+commit ... git commit "$@"
 ```
 
 ## author

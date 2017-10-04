@@ -1,1 +1,1 @@
-cp /usr/local/bin/$1 .
+cp /usr/local/bin/$1 .; cat /usr/local/bin/$1 | pbcopy
