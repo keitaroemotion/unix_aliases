@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+Dir["aliases/*"].each do |file|
+  file = File.basename(file)
+  if File.exist?("/usr/local/bin/#{file}")
+    print "script '#{file}' already exists. wanna override? [y/n] "
+    if $stdin.gets.chomp.downcase != "y"
+      next
+    end
+  end
+  system "mkdir -p /usr/local/etc/unixa" 
+  puts "moved: aliases/#{file} ==> /usr/local/bin/#{file}"
+  system "sudo cp aliases/#{file} /usr/local/bin"
+end
