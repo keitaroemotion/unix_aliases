@@ -22,3 +22,7 @@ rebase ... git rebase $@
 bring  ... cp /usr/local/bin/$1 .
 cx     ... chmod +x $@ 
 ```
+
+# author
+
+Kei Sugano tobasojyo@gmail.cim
